@@ -2,8 +2,8 @@
 
 # Note that we have commented out the BTS website, and are instead
 # using a mirror. This is because the BTS website is frequently down
-SOURCE=https://storage.googleapis.com/data-science-on-gcp/edition2/raw
-#SOURCE=https://transtats.bts.gov/PREZIP
+#SOURCE=https://storage.googleapis.com/data-science-on-gcp/edition2/raw
+SOURCE=https://transtats.bts.gov/PREZIP
 
 if test "$#" -ne 2; then
    echo "Usage: ./download.sh year month"
